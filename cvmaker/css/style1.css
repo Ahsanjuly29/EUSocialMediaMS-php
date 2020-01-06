@@ -1,0 +1,22 @@
+.body{
+	margin:0 auto;
+	background-color: ;
+	background-image:url('../image/bg2.jpg');
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+	height:100vh;
+	text-transform:capitalize;
+}
+.container{
+	max-width:720px;
+}
+.main{
+	line-height:1.0;
+ 
+}
+.main input{
+	margin:10px;
+}
+

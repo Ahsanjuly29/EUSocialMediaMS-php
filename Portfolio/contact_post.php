@@ -12,23 +12,18 @@ if(empty($_POST['name'])  		||
 	echo "No arguments Provided!";
 	return false;
    }
-	
-   echo $name = $_POST['name'];
-   echo "<br>";
-   echo $email_address = $_POST['email'];
-   echo "<br>";
-   echo $subject = $_POST['subject'];
-   echo "<br>";
-   echo $message = $_POST['message'];
-
-   $insert_query = "INSERT INTO mail(name,email,subject,message) VALUES('$name','$email_address','$subject','$message')";
-   if (mysqli_query($db,$insert_query)){
-      session_start();
-      $_SESSION['mail_msg'] = "message sent successfully";
-      echo "<script>window.open('index.php#testimonial','_self');</script>";
-      die();
-   }
-
+    $name = $_POST['name'];
+    $email_address = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+    
+    echo $insert_query = "INSERT INTO mail(name,email,subject,message) VALUES('$name','$email_address','$subject','$message')";
+    if (mysqli_query($db,$insert_query)){
+        session_start();
+        $_SESSION['mail_msg'] = "message sent successfully";
+        echo "<script>window.open('index.php#testimonial','_self');</script>";
+        die();
+    }
 die();
 // Create the email and send the message
 $to = 'yourname@yourdomain.com';

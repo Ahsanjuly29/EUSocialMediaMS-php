@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*text-transform:capitalize;*/
+}
+body{
+	 
+}
+a:hover{
+	color:red;
+	/*text-transform:capitalize;*/
+}

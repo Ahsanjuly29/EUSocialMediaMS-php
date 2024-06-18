@@ -1,0 +1,381 @@
+body{
+	background:#F7F7F7;
+	text-transform:capitalize;
+}
+.page-area{
+	
+}
+.logo{
+	margin: 6px 0px 30px;
+}
+.logo h2{
+	font-size: 30px;
+	color: #fff;
+    font-weight: bold;
+}
+.logo h2 span{
+	color:#DE5145;
+}
+.logo h2 a{
+	color: #fff;
+}
+.logo p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 800;
+}
+.logo p span{
+	color:#fff;
+}
+.left-side{
+	background:#1ABB9C;
+	width:20%;
+	height:100%;
+	position:fixed;
+	padding:20px;
+	padding-right:10px;
+	overflow-y:scroll;
+}
+.right-side{
+	width:80%;
+	float:right;
+	background:#F7F7F7;
+}
+.admin-menu{
+	background: #EDEDED;
+    padding: 20px 40px;
+    border-bottom: 1px solid #D9DEE4;
+	height: 60px;
+}
+.admin-menu ul{
+	float:right;
+}
+.admin-menu >ul>li{
+	float:left;
+	margin-right:40px;
+	position:relative;
+	cursor:pointer;
+}
+.admin-menu ul li:last-child{
+	margin-right:0px;
+}
+.admin-menu ul li span.number-count{
+	background: #1ABB9C;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: -12px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    left: 5px;
+}
+.dropdown-menu{}
+.dropdown-menu li{}
+.dropdown-menu li a{}
+.dropdown-menu li a img{
+	width: 40px;
+	float: left;
+	padding:0px 5px 5px 0px;
+}
+.dropdown-menu li a p{}
+.dropdown-menu li a span{
+	color: brown;
+	font-weight: bold;
+}
+.dropdown-menu li a .time{}
+.dropdown-menu>li>a{
+	white-space:unset;
+	border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.dropdown-menu>li:last-child>a{
+	border-bottom:none;
+}
+.dropdown-menu{
+	min-width:230px;
+}
+.content-heading{
+	padding: 20px 0px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 40px;
+}
+.content-heading h3{
+	display: inline-block;
+    padding-top: 10px;
+}
+.search-option{
+	position: relative;
+    float: right;
+}
+.search-option input{
+	height: 35px;
+    width: 280px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+}
+.search-option button{
+	border: none;
+    background: none;
+    position: absolute;
+    right: 5px;
+    top: 6px;
+    font-size: 18px;
+}
+.content{
+	overflow:hidden;
+}
+.admin-home-content{}
+.admin-home-content a {
+	width:31%;
+	float:left;
+	margin-right:2rem;
+	margin-bottom:2rem;
+}
+.content-image{
+	padding: 20px;
+    background: #1ABB9C;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 5px;
+	transition:all .3s;
+}
+.content-image:hover{
+	background:#89C159;
+}
+.content-image p{
+	display: inline-block;
+    font-size: 25px;
+    margin-top: 80px;
+}
+.content-image i{
+	float: right;
+    font-size: 60px;
+}
+
+
+
+.side-nav{}
+.side-nav ul{}
+.side-nav ul li{
+	padding: 5px 0px;
+}
+
+.side-nav ul li a{
+	color:#fff;
+	font-size: 15px;
+	cursor:pointer;
+}
+.side-nav ul li a:hover{
+	color:#FFFACD;
+}
+.side-nav ul li.active>a{
+	color: #FFFACD;
+    font-weight: bold;
+}
+.side-nav ul li ul{
+	padding-left: 40px;
+}
+.side-nav ul li ul li{}
+.side-nav ul li ul li a{}
+
+.dropdown-content {
+    display: none;
+    z-index: 1;
+}
+
+
+.show {
+    display: block;
+}
+
+
+/*===========================
+	add student in page
+============================ */
+.sign-in-heading{
+	margin-bottom:20px;
+}
+.sign-in-area{
+	display:block;
+	overflow:hidden;
+}
+.sign-in-area form{
+	display: inline-block;
+    padding: 33px;
+    border: 1px solid gray;
+    background: #F5F5F5;
+}
+.sign-in-area form .sign-input{
+	overflow:hidden;
+	display:block;
+}
+.sign-in-area form .sign-input img{
+	height:100px;
+	width:100px;
+}
+
+.sign-in-area form .sign-input label{
+	width: 191px;
+    float: left;
+    font-size: 16px;
+	margin-top:10px;
+}
+.sign-in-area form .sign-input input{
+	height: 40px;
+    width: 260px;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+	padding:5px 10px;
+}
+.sign-in-area form .sign-input select{
+	height: 40px;
+    width: 260px;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+	padding:5px 10px;
+}
+.sign-in-area form .form-page-link{
+	display: inline-block;
+    float: left;
+    overflow: hidden;
+    margin-top: 24px;
+}
+a.form-page-link{
+	font-size: 18px;
+    font-weight: bold;
+    color: #ED502E;
+    text-decoration: underline;
+}
+.sign-in-area form .input-button input{
+	/* float: right; */
+    margin-top: 20px;
+    color: #fff;
+    background: #ED502E;
+    border: none;
+    padding: 4px 13px;
+}
+.sign-input textarea{
+	width: 510px;
+    margin-bottom: 20px;
+    padding: 13px 10px;
+    height: 50px;
+    border: 1px solid gray;
+}
+.edit-post-description textarea{
+	height:240px;
+}
+
+
+/*===========================
+	Table in page
+============================ */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 16px 7px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.option-area li{
+	float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.option-area li i{
+	font-size:18px;
+}
+.option-area li i.fa-check{
+	color:green;
+}
+.option-area li i.fa-exclamation-triangle{
+	color:red;
+}
+.option-area li i.fa-trash{
+	color:darkblue;
+}
+table tr td img{
+	width:100px;
+	height:auto;
+	width: 50px;
+}
+
+
+/*===========================
+	single student in page
+============================ */
+
+
+.view-student{
+	
+}
+.view-student-area{}
+.view-student-area img {
+	width: 200px;
+	height: auto;
+	margin-bottom: 30px;
+	float:right;
+}
+.view-student-area ul{
+	overflow:hidden;
+}
+.view-student-area ul li {
+	float: left;
+	margin-right: 20px;
+	font-size: 15px;
+	margin-bottom: 13px;
+}
+.view-student-area ul li:first-child{
+	font-weight:bold;
+	width:200px;
+}
+.view-student-area a{
+	
+}
+
+
+.admin-mail {
+	padding-top: 70px;
+}
+.admin-mail form h3 {
+	margin-bottom: 20px;
+}
+.admin-mail-input{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.admin-mail-input input {
+	height: 45px;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid gray;
+}
+.admin-mail-input textarea {
+	height: 200px;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid gray;
+	resize: none;
+}
+.mail-submit-button input{
+	width: 250px;
+	float: right;
+
+}
+.admin-mail-table {
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+.admin-mail-table h3{
+	margin-bottom: 20px;
+}

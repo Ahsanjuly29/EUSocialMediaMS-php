@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+*:focus{
+	outline: none;
+}
+*::selection{
+	color: #1D1F21;
+	background: #EFEDEA;
+}
+*::-moz-selection {
+	color: #1D1F21;
+	background: #EFEDEA;
+}
+html{
+	font-size: 62.5%;
+	text-transform:capitalize;
+}
+
+body{
+	font-size: 1.6rem;
+	font-family: 'Raleway', sans-serif;
+}
+a,
+a:hover,
+a:focus,
+a:visited {
+	display: block;
+	outline: none;
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-weight: 400;
+}
+input{
+	outline: none;
+	border: none;
+}
+input:invalid{
+	box-shadow: none;
+}
+.login-logo{
+	margin-bottom: 1rem;
+}
+.login-logo img{
+	width: 20%;
+}
+.login-area{
+	width: 48rem;
+    margin: 6rem auto;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0px 0.5rem 3rem rgba(130,130,130,0.2);
+}
+.login-header {
+    background: #73879C;
+    padding: 3rem 5rem 2.5rem;
+}
+.login-header p{
+	font-size: 1.8rem;
+}
+.login-form{
+	background: #fff;
+	padding: 4rem 4.5rem 2.8rem;
+	color: #aaa;
+}
+.login-form a{
+	color: #404241;
+}
+.login-form form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.login-form input[type="text"],
+.login-form input[type="password"]{
+	border-bottom: 0.3rem solid #73879C;
+	display: block;
+	color: #404241;
+	width: 100%;
+	padding: 0.2rem 0.5rem;
+    font-size: 2.3rem;
+    box-sizing: border-box;
+}
+.login-form input[type="submit"]{
+	background: #1ABB9C;
+    color: #fff;
+    font-size: 1.55rem;
+    padding: 1.5rem 8rem;
+    margin: 2.8rem 0 1.2rem;
+}
+.login-inputs{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.login-input{
+	position: relative;
+	flex-basis: 47.5%;
+}
+.login-input label{
+	position: absolute;
+    left: 0.5rem;
+    top: 0.1rem;
+    font-size: 2.3rem;
+    pointer-events: none;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+}
+.login-input label.no-transition{
+	transition: none;
+}
+.login-form input[type="text"]:focus + label,
+.login-form input[type="password"]:focus + label,
+.login-form label.login-label-small{
+	top: -16px;
+    font-size: 1.3rem;
+}
+.login-footer{
+	background: #2A3F54;
+	padding: 1.5rem 4.5rem 4.5rem;
+}
+
+/*4DAF7C green
+404241 black
+E9C85D yellow*/
+
